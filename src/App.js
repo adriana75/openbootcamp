@@ -1,22 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Greeting from './components/pure/Greeting';
+import GreetingF from './components/pure/GreetingF';
+import TaskListComponent from './components/container/task_list';
+import ContactoComponent from './components/Ejercicio1/contacto';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/*<Greeting name="Adriana"></Greeting>*/}
+        {/*<GreetingF name="Adriana"></GreetingF>*/}
+
+        {/*<TaskListComponent></TaskListComponent>*/}
+
+        <ContactoComponent></ContactoComponent>
+
       </header>
     </div>
   );
