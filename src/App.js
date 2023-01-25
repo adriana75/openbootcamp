@@ -12,6 +12,7 @@ import Father from './components/container/father';
 import OptionalRender from './components/pure/optionalRender';
 import LoginFormik from './components/pure/forms/loginFormik';
 import RegisterFormik from './components/pure/forms/registerFormik';
+import TaskFormik from './components/pure/forms/taskFormik';
 
 
 function App() {
@@ -39,7 +40,9 @@ function App() {
 
         {/*<LoginFormik></LoginFormik>*/}
 
-        <RegisterFormik></RegisterFormik>
+        {/*<RegisterFormik></RegisterFormik>*/}
+
+        <TaskFormik></TaskFormik>
     </div>
   );
 }
